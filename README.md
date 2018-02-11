@@ -7,7 +7,7 @@
 `gcloud container clusters get-credentials tutorial`
 
 #### Apply manifest
-`kubectl apply -f manifest.yaml`
+`kubectl apply -f manifests/hello-world.yaml`
 
 #### Kubernetes UI
 `kubectl proxy`
