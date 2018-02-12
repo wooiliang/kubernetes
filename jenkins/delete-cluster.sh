@@ -12,10 +12,10 @@ kubectl delete secret jenkins --namespace=jenkins
 
 kubectl delete ns jenkins
 
-gcloud container clusters delete "jenkins-cd"
+gcloud container clusters delete "jenkins-cd" --quiet
 
-gcloud compute disks delete jenkins-home
+gcloud compute disks delete jenkins-home --quiet
 
-gcloud compute images delete jenkins-home-image
+gcloud compute images delete jenkins-home-image --quiet
 
-gcloud compute networks delete jenkins
+gcloud compute networks delete jenkins --quiet
