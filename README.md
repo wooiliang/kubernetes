@@ -12,3 +12,6 @@
 #### Kubernetes UI
 `kubectl proxy`
 To get access token - `kubectl config view`
+
+## Links
+scopes - https://cloud.google.com/sdk/gcloud/reference/container/clusters/create
